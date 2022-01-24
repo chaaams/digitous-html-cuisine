@@ -34,7 +34,7 @@ p{
     color: white;
 }
 img{
-    height: 150px;
+    height: 130px;
 }
 .title{
     font-family: Oswald;
@@ -42,4 +42,18 @@ img{
 .logo{
     padding-top: 8em;
     justify-content: center;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+}
+.article{
+    height: 33em;
+    justify-content: flex-end;
+}
+.suggestion{
+    color: grey;
 }
