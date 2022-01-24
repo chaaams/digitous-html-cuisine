@@ -1,6 +1,5 @@
-
 header{
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/team/team.jpg);
     background-position-x: center;
     background-position-y: center;
 
@@ -11,14 +10,10 @@ nav{
 .header-content{
     height: 25rem;
     background-color: #000000ac;
-    font-family: Courgette;
-}
-.logo-header{
-    padding-top: 10%;
 }
 .collapse{
     justify-content: end;
 }
-a{
-    color: white;
+img{
+    max-height: 100px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,89 +9,111 @@
     <link rel="stylesheet" href="./css/homepage.css"> 
     <title>Cui'zine</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent border fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Cui'zine</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Equipe</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-  </nav>
-    <header>
-        <div class="container-fluid col-md-12 col-xm-12">
-                <div class=" text-center logo">
-                    <img class="img" src="./img/logo_square_white.png" alt="logo_square_white">
-                    <h2>Cui'zine</h2>
-                    <h3>Le mag cuisine</h3>
+    <body>
+                            <!--Début du Header-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-light border-2">
+                <div class="container-fluid">
+                    <h2 class="h2"><a class="navbar-brand" href="#">Cui'zine</a></h2>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link" href="#">Equipe</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-content container-fluid text-center align-self-center">
+                    <div class="col-4 offset-4 ">
+                        <img class="w-25 logo-header"src="./img/logo_square_white.png" alt="logo_square_white">
+                        <h1 class="text-white">Cui'zine</h1>
+                        <h2 class="text-white">Le mag cuisine</h2>
+                    </div>
                 </div>
             </div>
-            </header>
-            
+        </header>
+                                            <!--Fin du  header-->
+                                            <!--Début article-->
          <div class="container">
-        <div class="row col-sm-12 col-md-6">
-            <div class="col-12 m-4 text-center title"><h2>Derniers articles</h2></div>
-        </div>
-        <div class="article">
-            <div class="d-flex ">
-              <div>
-                  <img class="aricle-img"src="./img/articles/suzette/suzette-small.jpg" alt="suzette-small">
-              </div>
-                <div class="px-3">
-                            <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat est ratione ducimus reprehenderit sunt, rem aperiam quasi nam at minima.</p>
+            <div class="row">
+                <div class="col-12 text-center m-4"><h2>Derniers articles</h2></div>
+            </div>
+            <div class="row ">
+                <div class="col-8">
+                    <div class="col d-flex">
+                        <img class="col-4 m-2" src="./img/articles/suzette/suzette-small.jpg" alt="suzette-small">
+                        <div class="d-blolck m-3">
+                            <h3>Chez Susette, la nouvelle crêperie qui fait parler d'elle</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus officiis, laudantium 
+                                mollitia ullam inventore excepturi ut eius cupiditate, eum tempora nisi iure cumque quod quos
+                                 doloremque minima eligendi optio?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex">
+                        <img class="col-4 m-2" src="./img/articles/metro/metro-small.jpg" alt="metro-small">
+                        <div class="d-blolck m-3">
+                            <h3>Le Métro dessert</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus officiis, laudantium 
+                                mollitia ullam inventore excepturi ut eius cupiditate, eum tempora nisi iure cumque quod quos
+                                 doloremque minima eligendi optio?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex">
+                        <img class="col-4 m-2" src="./img/articles/vitaly/vitaly-small.jpg" alt="vitaly-small">
+                        <div class="d-blolck m-3">
+                            <h3>Vitaly, le végan italien</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus officiis, laudantium 
+                                mollitia ullam inventore excepturi ut eius cupiditate, eum tempora nisi iure cumque quod quos
+                                 doloremque minima eligendi optio?
+                            </p>
+                        </div>
+                    </div>
+                    <p class="m-4">*Voir les articles précédents</p>
                 </div>
-        </div>
-            <div class="d-flex pt-4">
-                <div><img class="aricle-img"src="./img/articles/metro/metro-small.jpg" alt="metro-small"></div>
-                <div class="px-3">
-                    <h3>Le Métro dessert</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat est ratione ducimus reprehenderit sunt, rem aperiam quasi nam at minima.</p>
+                <!--Partie newsletter-->
+                <div class="col-4">
+                    <div class="col">
+                        <p>Recherche</p>
+                        <input type="text" value="Recherche..">
+                        <input type="submit" value="Rechercher">
+                    </div>
+                    <div class="col">
+                        <p>Newsletters</p>
+                        <input type="email" value="Email">
+                        <input type="submit" value="S'inscrire">
+                    </div>
                 </div>
             </div>
-            <div class="d-flex pt-4">
-                <div><img class="aricle-img"src="./img/articles/vitaly/vitaly-small.jpg" alt="vitaly-small"></div>
-                <div class="px-3">
-                    <h3>Vitaly, le vegan italien</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat est ratione ducimus reprehenderit sunt, rem aperiam quasi nam at minima.</p>
-                </div>
-            </div>
-            <p class="pt-4 suggestion">* Voir les articles précédent</p>
         </div>
-    </div>
+                                                    <!--Fin articles-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-<footer class="container-fluid col-sm-12">
-    <div class="container pt-5">
-    <div class="category d-grid">
+<footer class="container-fluid d-flex ">
+    <div class="row">
+    <div class="col-4">
     <h3>Catégorie</h3>
     <a href="#">Revue</a>
     <a href="#">Recette</a>
     <a href="#">Découverte</a>
     </div>
     </div>
-<div class="container archive d-grid pt-2">
-    <h3>Archive</h3>
+<div class="row">
+    <div class="col-4">
+    <h3>Archives</h3>
     <a href="#">2019</a>
     <a href="#">2018</a>
     <a href="#">2017</a>
     </div>
-    </div>
+</div>
 </footer>
 </html>
