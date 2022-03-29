@@ -1,11 +1,14 @@
 header{
     background-image: url(../img/team/team.jpg);
-    background-position-x: center;
     background-position-y: center;
+    background-position-x: center;
 
 }
 nav{
     background-color: #000000ac;
+}
+body{
+    font-family: Courgette;
 }
 .header-content{
     height: 25rem;
@@ -15,5 +18,11 @@ nav{
     justify-content: end;
 }
 img{
-    max-height: 100px;
+    max-height: 10em;
+}
+.text-header{
+    font-family: Courgette;
+}
+p{
+    font-family: Oswald;
 }

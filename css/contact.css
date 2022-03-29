@@ -7,14 +7,11 @@ header{
 nav{
     background-color: #000000ac;
 }
-.header-content{
-    height: 25rem;
-    background-color: #000000ac;
-    font-family: Courgette;
+.mapouter, .gmap_canvas {
+    max-width: 100%;
 }
-.logo-header{
-    padding-top: 10%;
-}
-.collapse{
-    justify-content: end;
+
+.gmap_canvas iframe {
+    height: 100%;
+    width: 100%;
 }

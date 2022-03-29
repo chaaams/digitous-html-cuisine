@@ -1,24 +1,15 @@
+/* Articles */
 
-header{
-    background-image: url(../img/header.jpg);
-    background-position-x: center;
-    background-position-y: center;
+.section-articles > h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
 
+.section-articles a {
+    color: #000;
+    text-decoration: none;
 }
-nav{
-    background-color: #000000ac;
-}
-.header-content{
-    height: 25rem;
-    background-color: #000000ac;
-    font-family: Courgette;
-}
-.logo-header{
-    padding-top: 10%;
-}
-.collapse{
-    justify-content: end;
-}
-a{
-    color: white;
+
+.section-articles img {
+    width: 100%;
 }
